@@ -251,7 +251,7 @@ class UpdatesettingsOut(BaseModel):
 def update_settings(data: UpdatesettingsIn):
     """
     #### Description
-    绑定拐杖到App账号，App注册时调用
+    app保存设置时使用
 
     #### Request
     - uuid: 拐杖uuid
