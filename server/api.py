@@ -68,7 +68,7 @@ def heartbeat(data: HeartbeatIn):
     - msg: 返回值信息
     """
 
-    data.loc.info = binascii.unhexlify(data.loc.info.encode('utf-8')).decode()
+    # data.loc.info = binascii.unhexlify(data.loc.info.encode('utf-8')).decode()              # 改用掌控板发送heartbeat时解除注释
 
     logger.debug(f"Recv heartbeat: {data}")
 
