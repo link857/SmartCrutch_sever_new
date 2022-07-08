@@ -5,6 +5,8 @@ from server.api import app
 from server.core import load_database
 
 def start(port=8000):
+    logger.remove(handler_id=None)
+
     logger.info("Loading data...")
     load_database()
 

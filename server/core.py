@@ -6,6 +6,7 @@ from loguru import logger
 from server.database import DataBase
 from server.typing_ import CrutchStatus, Loc, CrutchSettings
 
+# logger.remove(handler_id=None)
 
 class Crutch(object):
 

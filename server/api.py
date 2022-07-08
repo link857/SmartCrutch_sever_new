@@ -26,6 +26,7 @@ async def validation_exception_handler(request, exc):
     )
 
 
+# logger.remove(handler_id=None)
 
 # ============ Crutch ============
 

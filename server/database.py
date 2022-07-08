@@ -5,6 +5,7 @@ from typing import Optional
 from loguru import logger
 
 get_relative_path = lambda p: os.path.join(os.path.dirname(__file__), p)
+# logger.remove(handler_id=None)
 
 class DataBase(object):
     def __init__(self):
